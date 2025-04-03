@@ -1,5 +1,5 @@
 {% set name = "modshim" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/modshim-{{ version }}.tar.gz
-  sha256: 65598d730e9a91dd08c83c18f82260eecece72b5e9aa3348b6d7b43323045f41
+  sha256: f6cbcf3b539bd8b3d3e4decb6048a7b135e3fba74a60833430353933ee10ef6c
 
 build:
   noarch: python
